@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>打他打他就打他！</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="selector">
+            <input type="button" id="start" class="btn" value="Start!" onclick="startGame()">
+            <input type="button" id="end" class="btn" value="Stop!" onclick="stop()">
+        </div>
+        <div class="selection">
+            <span>Your score:</span><input type="text" id="score" value="0" readonly="readonly">
+            <span>Time:</span><input type="text" id="time" value="30" readonly="readonly">
+            <span>Game Level:</span>
+            <select id="level" class="level" onchange="changeLevel();">
+                <option value="hard">Hard</option>
+                <option value="medium">Medium</option>
+                <option value="easy">Easy</option>
+            </select>
+
+        </div>
+
+
+
+        <table>
+            <tr>
+                <td id="item_1" class="item" onclick="hit('1')"></td>
+                <td id="item_2" class="item" onclick="hit('2')"></td>
+                <td id="item_3" class="item" onclick="hit('3')"></td>
+                <td id="item_4" class="item" onclick="hit('4')"></td>
+                <td id="item_5" class="item" onclick="hit('5')"></td>
+            </tr>
+            <tr>
+                <td id="item_6" class="item" onclick="hit('6')"></td>
+                <td id="item_7" class="item" onclick="hit('7')"></td>
+                <td id="item_8" class="item" onclick="hit('8')"></td>
+                <td id="item_9" class="item" onclick="hit('9')"></td>
+                <td id="item_10" class="item" onclick="hit('10')"></td>
+            </tr>
+            <tr>
+                <td id="item_11" class="item" onclick="hit('11')"></td>
+                <td id="item_12" class="item" onclick="hit('12')"></td>
+                <td id="item_13" class="item" onclick="hit('13')"></td>
+                <td id="item_14" class="item" onclick="hit('14')"></td>
+                <td id="item_15" class="item" onclick="hit('15')"></td>
+            </tr>
+            <tr>
+                <td id="item_16" class="item" onclick="hit('16')"></td>
+                <td id="item_17" class="item" onclick="hit('17')"></td>
+                <td id="item_18" class="item" onclick="hit('18')"></td>
+                <td id="item_19" class="item" onclick="hit('19')"></td>
+                <td id="item_20" class="item" onclick="hit('20')"></td>
+            </tr>
+            <tr>
+                <td id="item_21" class="item" onclick="hit('21')"></td>
+                <td id="item_22" class="item" onclick="hit('22')"></td>
+                <td id="item_23" class="item" onclick="hit('23')"></td>
+                <td id="item_24" class="item" onclick="hit('24')"></td>
+                <td id="item_25" class="item" onclick="hit('25')"></td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="js/index.js" type="text/javascript"></script>
+</body>
+</html>

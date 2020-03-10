@@ -1,0 +1,46 @@
+.container{
+    width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.selector{
+    margin: 5px auto;
+    
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    padding: 2px 8px;
+    border: 1px solid #f4f4f4;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.level{
+    width: 70px;
+    padding: 2px 4px;
+    height: 30px;
+}
+
+input[type=text]{
+    width: 70px;
+    height: 20px;
+    padding: 2px 4px;
+    margin: 5px auto;
+
+}
+
+table{
+    border-collapse: collapse;
+    margin: 5px auto;
+}
+
+table tr td{
+    border:1px solid #ccc;
+    background: gray;
+    height: 100px;
+    width: 100px;
+
+}
