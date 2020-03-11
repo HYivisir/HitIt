@@ -62,7 +62,7 @@ function startGame(){
         }
 
         document.getElementById(index).style.background = "url('./images/target.jpg')"
-        document.getElementById(index).innerHTML = 'here!';
+        document.getElementById(index).innerHTML = '!';
     },interval);
 }
 function stop(){
