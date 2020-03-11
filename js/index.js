@@ -93,6 +93,7 @@ function hit(target){
     if(document.getElementById(target_id).innerHTML != ''){
         score+=1;
         document.getElementById('score').value = score;
+        
     };
 }
 
